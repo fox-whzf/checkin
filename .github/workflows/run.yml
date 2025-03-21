@@ -19,3 +19,4 @@ jobs:
         env:
           GLADOS: ${{ secrets.GLADOS }}
           NOTIFY: ${{ secrets.NOTIFY }}
+      - run: echo '${{ secrets.GLADOS }},${{ secrets.GLADOS3301 }}'
